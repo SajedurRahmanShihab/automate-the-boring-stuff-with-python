@@ -200,3 +200,96 @@ while True:  # The main game loop.
     elif playerMove == "s" and computerMove == "r":
         print("you lose!")
         losses = losses + 1
+
+
+# PRACTICE QUESTION
+"""
+1. What are the two values of the Boolean data type? How do you write them?
+Answer:
+True
+False
+
+2. What are the three Boolean operators?
+Answer:
+and, or, not
+
+3. Write out the truth tables of each Boolean operator (that is, every possible combination of Boolean values for the operator and what they evaluate to).
+Answer:
+True True = True
+True False = False
+vice versa
+
+4. What do the following expressions evaluate to?
+Answer:
+(5 > 4) and (3 == 5) False
+not (5 > 4) False
+(5 > 4) or (3 == 5) True
+not ((5 > 4) or (3 == 5)) False
+(True and True) and (True == False) False
+(not False) or (not True) True
+
+5. What are the six comparison operators?
+Answer:
+<, >, >=, <=, !=, ==
+
+6. What is the difference between the equal to operator and the assignment operator?
+Answer:
+= this is an assign operator, which assing value into a variable
+== this is an equal operator which is a comparision operator
+
+7.  Explain what a condition is and where you would use one.
+Answer: A condition defines whether a mathmetical expression is true of false. We can use it in many different circumstances, such as iteration, if else statement and so on so forth
+
+8. Identify the three blocks in this code:
+spam = 0
+if spam == 10:
+    print('eggs')
+    if spam > 5:
+        print('bacon')
+    else:
+        print('ham')
+    print('spam')
+print('spam')
+
+9. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+Answer:
+spam = 1
+if spam == 1 :
+    print("Hello")
+elif spam == 2:
+    print("Howdy")
+else: 
+    print("Greetings!")
+
+10. What keys can you press if your program is stuck in an infinite loop?
+Answer:
+CLT + C
+
+11. What is the difference between break and continue?
+Answer:
+Break leaves the loop completely and executes the statements after the loop. Whereas Continue leaves the current iteration and executes with the next value in the loop.
+
+12. What is the difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop?
+Answer:
+ranger(10) 0-9
+range(0,10) 0-9
+range(0, 10, 1) 0-9
+no difference
+
+13. What is the difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop?
+Answer;
+for i in range(1, 11):
+    print(i)
+
+i = 1
+while i < 11:
+    print(i)
+    i = i + 1
+
+
+14. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+Answer:
+import spam
+spam.bacon()
+
+"""
