@@ -182,7 +182,7 @@ Because it start and ended with double quote
 
 5.  If you don’t want to put \n in your string, how can you write a string with newlines in it?
 Starting and ending with """
-
+"""
 6. What do the following expressions evaluate to?
 
 'Hello, world!'[1]   e
